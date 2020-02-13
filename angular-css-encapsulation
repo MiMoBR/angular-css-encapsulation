@@ -1,0 +1,17 @@
+Angula CSS Encapsulation Style
+
+...component.ts
+
+	@Component({
+	  encapsulation: ViewEncapsulation.None /* --- CSS Encapsulation Global --- */
+	})
+
+	or
+
+	@Component({
+	  encapsulation: ViewEncapsulation.Emulated /* --- CSS Encapsulation Local --- */
+	})
+
+...component.css
+
+	p{color:blue;}	
